@@ -1,1 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,700);
+
+/* Body */
+$body-bg:						#00933B;
+$font-family-sans-serif:		'Dosis', sans-serif;
+$link-color:					#F2DB00;
+/* Navbar */
+$navbar-default-bg:				#F2DB00;
+$navbar-default-link-color:  	#FF590D;
+$navbar-default-link-hover-bg:  #99CC00;
+$navbar-default-brand-color:	#0E2293;
+
+/* JumboTron */
+
+$jumbotron-bg:					#FF9900;
+
 @import 'bootstrap';
+
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
