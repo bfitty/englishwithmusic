@@ -11,3 +11,20 @@
  *= require_self
  *= require_tree .
  */
+body { 
+	background: url(images/bgnyc.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 100px;
+
+}
+
+.container-body {
+	background-color: transparent; 
+	border-radius: 8px; 
+	margin-top: 20px;
+	padding-top: 30px; 
+	width: 80%;
+}
